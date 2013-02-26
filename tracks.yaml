@@ -1,1 +1,19 @@
-tracks: {}
+tracks:
+  groovy:
+    actions:
+    - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
+      :{vcs_uri} --name :{name} --output-dir :{archive_dir_path}
+    - git-bloom-import-upstream :{archive_path} :{patches} --release-version :{version}
+      --replace
+    - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
+    - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
+      -i :{release_inc}
+    devel_branch: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
+    name: upstream
+    patches: ./patch/
+    release_inc: -1
+    release_tag: :{version}
+    ros_distro: groovy
+    vcs_type: svn
+    vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
+    version: :{auto}
