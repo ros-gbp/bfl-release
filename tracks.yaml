@@ -8,15 +8,15 @@ tracks:
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc}
-    devel_branch: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
-    name: upstream
-    patches: ./patch/
+    devel_branch: null
+    name: bfl
+    patches: fuerte
     release_inc: -1
-    release_tag: :{version}
+    release_tag: null
     ros_distro: fuerte
     vcs_type: svn
     vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
-    version: :{auto}
+    version: 0.7.0
   groovy:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
