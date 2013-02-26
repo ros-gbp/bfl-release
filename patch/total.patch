@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
+<head>
+<link rel="icon" href="/bfl/bfl/static/hgicon.png" type="image/png" />
+<meta name="robots" content="index, nofollow" />
+<link rel="stylesheet" href="/bfl/bfl/static/style-paper.css" type="text/css" />
+
+<title>bfl-bfl: e09479487da6 total.patch</title>
+<style type="text/css">
+div.kforgenav {
+position: relative;
+top: 0;
+bottom: 0;
+height: 20px;
+z-index: 1000;
+width: 100%;
+}
+
+.kforgenav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+line-height: 1;
+cursor: pointer;
+height: auto;
+}
+
+.kforgenav li {
+padding: 0;
+margin: 0;
+list-style: none;
+float: left;
+position: relative;
+text-align: left;
+}
+
+.kforgenav a {
+display: block;
+padding: 4px 15px 3px;
+text-decoration: none;
+font-size: 11px;
+color: #000;
+border: 0;
+background: #fff;
+}
+</style></head>
+<body><div class="kforgenav"><ul><li><a href="/">kforge.ros.org</a></li><li><a href="/people/home/">Profile</a></li><li><a href="/projects/">Projects</a></li><li><a href="/projects/bfl/">BFL</a></li><li><a href="/projects/bfl/services/">Services</a></li><li><a href="/projects/bfl/members/">Members</a></li></ul></div>
+
+<div class="container">
+<div class="menu">
+<div class="logo">
+<a href="http://mercurial.selenic.com/">
+<img src="/bfl/bfl/static/hglogo.png" alt="mercurial" /></a>
+</div>
+<ul>
+<li><a href="/bfl/bfl/shortlog/e09479487da6">log</a></li>
+<li><a href="/bfl/bfl/graph/e09479487da6">graph</a></li>
+<li><a href="/bfl/bfl/tags">tags</a></li>
+<li><a href="/bfl/bfl/branches">branches</a></li>
+</ul>
+<ul>
+<li><a href="/bfl/bfl/rev/e09479487da6">changeset</a></li>
+<li><a href="/bfl/bfl/file/e09479487da6/">browse</a></li>
+</ul>
+<ul>
+<li class="active">file</li>
+<li><a href="/bfl/bfl/file/tip/total.patch">latest</a></li>
+<li><a href="/bfl/bfl/diff/e09479487da6/total.patch">diff</a></li>
+<li><a href="/bfl/bfl/annotate/e09479487da6/total.patch">annotate</a></li>
+<li><a href="/bfl/bfl/log/e09479487da6/total.patch">file log</a></li>
+<li><a href="/bfl/bfl/raw-file/e09479487da6/total.patch">raw</a></li>
+</ul>
+</div>
+
+<div class="main">
+<h2><a href="/bfl/bfl/">bfl-bfl</a></h2>
+<h3>view total.patch @ 3:e09479487da6</h3>
+
+<form class="search" action="/bfl/bfl/log">
+
+<p><input name="rev" id="search1" type="text" size="30" /></p>
+<div id="hint">find changesets by author, revision,
+files, or words in the commit message</div>
+</form>
+
+<div class="description">Added tag unstable for changeset 32aa43d998d0</div>
+
+<table id="changesetEntry">
+<tr>
+ <th class="author">author</th>
+ <td class="author">&#87;&#105;&#109;&#32;&#77;&#101;&#101;&#117;&#115;&#115;&#101;&#110;&#32;&#60;&#119;&#105;&#109;&#64;&#119;&#105;&#108;&#108;&#111;&#119;&#103;&#97;&#114;&#97;&#103;&#101;&#46;&#99;&#111;&#109;&#62;</td>
+</tr>
+<tr>
+ <th class="date">date</th>
+ <td class="date">Tue Nov 08 11:25:47 2011 -0800 (15 months ago)</td>
+</tr>
+<tr>
+ <th class="author">parents</th>
+ <td class="author"></td>
+</tr>
+<tr>
+ <th class="author">children</th>
+ <td class="author"></td>
+</tr>
+
+</table>
+
+<div class="overflow">
+<div class="sourcefirst"> line source</div>
+
+<div class="parity0 source"><a href="#l1" id="l1">     1</a> Index: src/bfl_constants.h
+</div>
+<div class="parity1 source"><a href="#l2" id="l2">     2</a> ===================================================================
+</div>
+<div class="parity0 source"><a href="#l3" id="l3">     3</a> --- src/bfl_constants.h	(revision 30395)
+</div>
+<div class="parity1 source"><a href="#l4" id="l4">     4</a> +++ src/bfl_constants.h	(working copy)
+</div>
+<div class="parity0 source"><a href="#l5" id="l5">     5</a> @@ -20,7 +20,7 @@
+</div>
+<div class="parity1 source"><a href="#l6" id="l6">     6</a>  
+</div>
+<div class="parity0 source"><a href="#l7" id="l7">     7</a>  #define NUMERIC_PRECISION 0.000000001
+</div>
+<div class="parity1 source"><a href="#l8" id="l8">     8</a>  
+</div>
+<div class="parity0 source"><a href="#l9" id="l9">     9</a> -#pragma warning( disable : 4996)
+</div>
+<div class="parity1 source"><a href="#l10" id="l10">    10</a> +//#pragma warning( disable : 4996)
+</div>
+<div class="parity0 source"><a href="#l11" id="l11">    11</a>  
+</div>
+<div class="parity1 source"><a href="#l12" id="l12">    12</a>  #ifndef M_PI
+</div>
+<div class="parity0 source"><a href="#l13" id="l13">    13</a>  #define M_PI 3.141592653589793284626433832795
+</div>
+<div class="sourcelast"></div>
+</div>
+</div>
+</div>
+
+
+
+</body>
+</html>
+
