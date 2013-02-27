@@ -1,0 +1,25 @@
+From f9a2a177b2180f908cab84d329586bebab725476 Mon Sep 17 00:00:00 2001
+From: Aaron Blasdel <ablasdel@willowgarage.com>
+Date: Wed, 27 Feb 2013 12:05:46 -0800
+Subject: [PATCH] Integrate patch file used in dry version.
+
+---
+ src/bfl_constants.h |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/bfl_constants.h b/src/bfl_constants.h
+index f5e62da..ce3f724 100644
+--- a/src/bfl_constants.h
++++ b/src/bfl_constants.h
+@@ -20,7 +20,7 @@
+ 
+ #define NUMERIC_PRECISION 0.000000001
+ 
+-#pragma warning( disable : 4996)
++//#pragma warning( disable : 4996)
+ 
+ #ifndef M_PI
+ #define M_PI 3.141592653589793284626433832795
+-- 
+1.7.9.5
+
