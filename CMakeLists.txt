@@ -123,6 +123,3 @@ EXECUTE_PROCESS(COMMAND ./revision OUTPUT_VARIABLE SVN_REVISION)
 MESSAGE("SVN REVISION ${SVN_REVISION}")
 CONFIGURE_FILE(Doxyfile.in Doxyfile @ONLY)
 ADD_CUSTOM_TARGET(docs "doxygen" "Doxyfile")
-
-# Install catkin package.xml
-install(FILES package.xml DESTINATION share/bfl)
