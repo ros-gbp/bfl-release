@@ -22,13 +22,16 @@
   <url type="repository">https://github.com/ros-planning/bfl</url>
   <url type="bugtracker">https://github.com/ros-planning/bfl/issues</url>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>catkin</run_depend>
+  <buildtool_depend>cmake</buildtool_depend>
+
   <build_depend>cppunit</build_depend>
   <build_depend>ros</build_depend>
   <run_depend>cppunit</run_depend>
   <run_depend>ros</run_depend>
 
   <export>
+    <build_type>cmake</build_type>
     <cpp cflags="-I${prefix}/include/bfl" lflags="-Wl,-rpath,${prefix}/lib  -L${prefix}/lib -lorocos-bfl"/>
     <rosdoc external="http://people.mech.kuleuven.be/~tdelaet/bfl_doc/doc/html/index.html" />
   </export>
