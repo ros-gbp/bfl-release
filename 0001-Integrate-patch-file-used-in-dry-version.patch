@@ -1,7 +1,7 @@
-From e07be877cb30b67ccdc674d6686a9830c260cef9 Mon Sep 17 00:00:00 2001
+From e5b131c527f7a35afb505849a562ac8936017c44 Mon Sep 17 00:00:00 2001
 From: Aaron Blasdel <ablasdel@willowgarage.com>
 Date: Wed, 27 Feb 2013 12:05:46 -0800
-Subject: [PATCH] Integrate patch file used in dry version.
+Subject: [PATCH 1/2] Integrate patch file used in dry version.
 
 ---
  src/bfl_constants.h |    2 +-
