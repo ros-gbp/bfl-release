@@ -1,7 +1,7 @@
-From 66e73d1a290e668154e570041340251bef6973dd Mon Sep 17 00:00:00 2001
+From 9449f7c0f03a108b1342f5128483e5a2e5b02312 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 07:35:10 -0800
-Subject: [PATCH 2/2] Added install rule for package.xml
+Subject: [PATCH 2/3] Added install rule for package.xml
 
 ---
  CMakeLists.txt |    3 +++
