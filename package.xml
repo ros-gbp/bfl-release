@@ -26,7 +26,9 @@
   <buildtool_depend>cmake</buildtool_depend>
 
   <build_depend>cppunit</build_depend>
+  <build_depend>ros</build_depend>
   <run_depend>cppunit</run_depend>
+  <run_depend>ros</run_depend>
 
   <export>
     <build_type>cmake</build_type>
