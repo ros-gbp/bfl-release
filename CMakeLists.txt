@@ -114,7 +114,8 @@ ADD_SUBDIRECTORY( examples )
 # --------
 CONFIGURE_FILE( orocos-bfl.pc.in orocos-bfl.pc @ONLY)
 INSTALL_FILES( /lib/pkgconfig FILES orocos-bfl.pc)
-
+CONFIGURE_FILE( orocos-bfl.pc.in bfl.pc @ONLY)
+INSTALL_FILES( /lib/pkgconfig FILES bfl.pc)
 
 # Building Doxygen documents
 # --------------------------
