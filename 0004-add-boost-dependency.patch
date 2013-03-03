@@ -1,7 +1,7 @@
-From c8b84869c57cac7d970db596a8bcd952fefc9ac5 Mon Sep 17 00:00:00 2001
+From 052778d474f27a3d6da2fee51d774a87151658fa Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 15:45:12 -0800
-Subject: [PATCH 4/4] add boost dependency
+Subject: [PATCH 4/5] add boost dependency
 
 ---
  package.xml |    3 +++
