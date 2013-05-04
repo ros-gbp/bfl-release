@@ -28,6 +28,7 @@ tracks:
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc}
     devel_branch: null
+    last_version: 0.7.0
     name: bfl
     patches: hydro
     release_inc: -1
