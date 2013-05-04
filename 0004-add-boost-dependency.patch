@@ -1,4 +1,4 @@
-From 564da821c02edb1b14699c15e128d159dede451c Mon Sep 17 00:00:00 2001
+From d2de63e0953503b0bccfb6a12de8737001ac40b6 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 15:45:12 -0800
 Subject: [PATCH 4/6] add boost dependency

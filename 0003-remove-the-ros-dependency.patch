@@ -1,4 +1,4 @@
-From 35ff253731269529e2576579100d88f8cfb90292 Mon Sep 17 00:00:00 2001
+From 0ee6408f287f22e4484314a9361af62908bf4490 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 15:36:08 -0800
 Subject: [PATCH 3/6] remove the ros dependency

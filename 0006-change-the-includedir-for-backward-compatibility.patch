@@ -1,4 +1,4 @@
-From 9481ce3d13fe7eceede81ac3685a4a03d4c5df87 Mon Sep 17 00:00:00 2001
+From 7b6749b81f533ce12fc3db852c90e8ce404321d1 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 19:31:09 -0800
 Subject: [PATCH 6/6] change the includedir for backward compatibility
