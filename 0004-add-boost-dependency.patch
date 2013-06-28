@@ -1,10 +1,10 @@
-From d2de63e0953503b0bccfb6a12de8737001ac40b6 Mon Sep 17 00:00:00 2001
+From dd823b48120a0804d1cb1a6d58206778f8c88590 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 15:45:12 -0800
 Subject: [PATCH 4/6] add boost dependency
 
 ---
- package.xml |    3 +++
+ package.xml | 3 +++
  1 file changed, 3 insertions(+)
 
 diff --git a/package.xml b/package.xml
@@ -23,5 +23,5 @@ index 1c5c2f9..2c2d4a5 100644
  
    <export>
 -- 
-1.7.9.5
+1.7.12.4 (Apple Git-37)
 

@@ -1,10 +1,10 @@
-From 0ee6408f287f22e4484314a9361af62908bf4490 Mon Sep 17 00:00:00 2001
+From 05c351b78aa0e70753b0da050f58b692a23edb92 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 15:36:08 -0800
 Subject: [PATCH 3/6] remove the ros dependency
 
 ---
- package.xml |    2 --
+ package.xml | 2 --
  1 file changed, 2 deletions(-)
 
 diff --git a/package.xml b/package.xml
@@ -22,5 +22,5 @@ index 0f4dc0c..1c5c2f9 100644
    <export>
      <build_type>cmake</build_type>
 -- 
-1.7.9.5
+1.7.12.4 (Apple Git-37)
 

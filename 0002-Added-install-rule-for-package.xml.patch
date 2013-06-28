@@ -1,10 +1,10 @@
-From d8a101d6d6628b71945ea3d5abe92ab24b0de2dc Mon Sep 17 00:00:00 2001
+From 22d4a7cdec51ef9a935fa61251d6ffc15fe5ce3c Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 07:35:10 -0800
 Subject: [PATCH 2/6] Added install rule for package.xml
 
 ---
- CMakeLists.txt |    3 +++
+ CMakeLists.txt | 3 +++
  1 file changed, 3 insertions(+)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
@@ -19,5 +19,5 @@ index 62782bf..891652c 100644
 +# Install catkin package.xml
 +install(FILES package.xml DESTINATION share/bfl)
 -- 
-1.7.9.5
+1.7.12.4 (Apple Git-37)
 
