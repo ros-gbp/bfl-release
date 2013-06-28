@@ -1,0 +1,26 @@
+From 309c70a859f0c48747d67cdaac089aa6bd753278 Mon Sep 17 00:00:00 2001
+From: Vincent Rabaud <vrabaud@willowgarage.com>
+Date: Sat, 2 Mar 2013 16:17:36 -0800
+Subject: [PATCH 5/6] add the bfl.pc file
+
+---
+ CMakeLists.txt |    3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 891652c..3fcc303 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -114,7 +114,8 @@ ADD_SUBDIRECTORY( examples )
+ # --------
+ CONFIGURE_FILE( orocos-bfl.pc.in orocos-bfl.pc @ONLY)
+ INSTALL_FILES( /lib/pkgconfig FILES orocos-bfl.pc)
+-
++CONFIGURE_FILE( orocos-bfl.pc.in bfl.pc @ONLY)
++INSTALL_FILES( /lib/pkgconfig FILES bfl.pc)
+ 
+ # Building Doxygen documents
+ # --------------------------
+-- 
+1.7.9.5
+

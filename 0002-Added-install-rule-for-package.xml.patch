@@ -1,0 +1,23 @@
+From d8a101d6d6628b71945ea3d5abe92ab24b0de2dc Mon Sep 17 00:00:00 2001
+From: Vincent Rabaud <vrabaud@willowgarage.com>
+Date: Sat, 2 Mar 2013 07:35:10 -0800
+Subject: [PATCH 2/6] Added install rule for package.xml
+
+---
+ CMakeLists.txt |    3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 62782bf..891652c 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -123,3 +123,6 @@ EXECUTE_PROCESS(COMMAND ./revision OUTPUT_VARIABLE SVN_REVISION)
+ MESSAGE("SVN REVISION ${SVN_REVISION}")
+ CONFIGURE_FILE(Doxyfile.in Doxyfile @ONLY)
+ ADD_CUSTOM_TARGET(docs "doxygen" "Doxyfile")
++
++# Install catkin package.xml
++install(FILES package.xml DESTINATION share/bfl)
+-- 
+1.7.9.5
+
