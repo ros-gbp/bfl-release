@@ -32,6 +32,7 @@ tracks:
     name: bfl
     patches: hydro
     release_inc: '0'
+    release_repo_url: null
     release_tag: null
     ros_distro: hydro
     vcs_type: svn
