@@ -1,0 +1,5 @@
+This branch ('bloom') has been deprecated in favor of storing settings and overlay files in the master branch.
+
+Please goto the master branch for anything which referenced the bloom branch.
+
+You can delete this branch at your convenience.
