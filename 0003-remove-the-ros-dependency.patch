@@ -1,7 +1,7 @@
-From 05c351b78aa0e70753b0da050f58b692a23edb92 Mon Sep 17 00:00:00 2001
+From a5cd46e0e9941c2e49c1a35b53dc6260bedfc178 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 15:36:08 -0800
-Subject: [PATCH 3/6] remove the ros dependency
+Subject: [PATCH 3/7] remove the ros dependency
 
 ---
  package.xml | 2 --

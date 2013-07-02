@@ -1,7 +1,7 @@
-From 089a466919fc3af9c2dccccf9f883bccd9e14cbc Mon Sep 17 00:00:00 2001
+From 895abfa833822d1665be9f1348c9144f310f4183 Mon Sep 17 00:00:00 2001
 From: Vincent Rabaud <vrabaud@willowgarage.com>
 Date: Sat, 2 Mar 2013 19:31:09 -0800
-Subject: [PATCH 6/6] change the includedir for backward compatibility
+Subject: [PATCH 6/7] change the includedir for backward compatibility
 
 ---
  orocos-bfl.pc.in | 2 +-
