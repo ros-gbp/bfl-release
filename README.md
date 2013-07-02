@@ -1,3 +1,22 @@
+## bfl - 0.7.0-3
+
+User `william@dosa` released the packages in the `bfl` repository by running `/usr/local/bin/bloom-release -t hydro -r hydro bfl` on `Tue, 02 Jul 2013 01:14:04 -0000`
+
+The `bfl` package was released.
+
+Version of package(s) in repository `bfl`:
+- rosdistro version: `0.7.0-1`
+- old version: `0.7.0-2`
+- new version: `0.7.0-3`
+
+Versions of tools used:
+- bloom version: `0.4.2`
+- catkin_pkg version: `0.1.16`
+- rosdep version: `0.10.19`
+- rosdistro version: `0.2.9`
+- vcstools version: `0.1.31`
+
+
 ## bfl - 0.7.0-2
 
 User `william@dosa` released the packages in the `bfl` repository by running `/usr/local/bin/bloom-release -t hydro -r hydro bfl` on `Tue, 02 Jul 2013 01:12:13 -0000`
