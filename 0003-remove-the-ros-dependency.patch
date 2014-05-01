@@ -1,0 +1,26 @@
+From efef3bad6ec6433847da02e94226637ed9b353c4 Mon Sep 17 00:00:00 2001
+From: Vincent Rabaud <vrabaud@willowgarage.com>
+Date: Sat, 2 Mar 2013 15:36:08 -0800
+Subject: [PATCH 3/7] remove the ros dependency
+
+---
+ package.xml | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/package.xml b/package.xml
+index 0f4dc0c..1c5c2f9 100644
+--- a/package.xml
++++ b/package.xml
+@@ -26,9 +26,7 @@
+   <buildtool_depend>cmake</buildtool_depend>
+ 
+   <build_depend>cppunit</build_depend>
+-  <build_depend>ros</build_depend>
+   <run_depend>cppunit</run_depend>
+-  <run_depend>ros</run_depend>
+ 
+   <export>
+     <build_type>cmake</build_type>
+-- 
+1.7.12.4 (Apple Git-37)
+
