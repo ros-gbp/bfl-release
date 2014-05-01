@@ -50,11 +50,11 @@ tracks:
     devel_branch: null
     last_version: 0.7.0
     name: bfl
-    patches: hydro
+    patches: indigo
     release_inc: '3'
     release_repo_url: null
     release_tag: null
-    ros_distro: hydro
+    ros_distro: indigo
     vcs_type: svn
     vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
     version: 0.7.0
