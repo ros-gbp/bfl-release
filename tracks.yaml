@@ -51,7 +51,7 @@ tracks:
     last_version: 0.7.0
     name: bfl
     patches: indigo
-    release_inc: '3'
+    release_inc: '4'
     release_repo_url: null
     release_tag: null
     ros_distro: indigo
