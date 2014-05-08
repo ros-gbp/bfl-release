@@ -1,3 +1,22 @@
+## bfl (indigo) - 0.7.0-6
+
+The packages in the `bfl` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo bfl` on `Thu, 08 May 2014 01:03:51 -0000`
+
+The `bfl` package was released.
+
+Version of package(s) in repository `bfl`:
+- rosdistro version: `0.7.0-5`
+- old version: `0.7.0-5`
+- new version: `0.7.0-6`
+
+Versions of tools used:
+- bloom version: `0.5.6`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.33`
+
+
 ## bfl (indigo) - 0.7.0-5
 
 The packages in the `bfl` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo bfl` on `Thu, 01 May 2014 07:59:25 -0000`
