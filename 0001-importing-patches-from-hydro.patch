@@ -1,0 +1,103 @@
+From 2523b5a42338482b3f0bc46a973d34d755b1d136 Mon Sep 17 00:00:00 2001
+From: William Woodall <william@osrfoundation.org>
+Date: Wed, 7 May 2014 18:02:27 -0700
+Subject: [PATCH] importing patches from hydro
+
+---
+ CMakeLists.txt                       | 6 +++++-
+ orocos-bfl.pc.in                     | 2 +-
+ package.xml                          | 5 +++--
+ src/bfl_constants.h                  | 2 +-
+ src/filter/mixtureParticleFilter.cpp | 6 +++---
+ 5 files changed, 13 insertions(+), 8 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 62782bf..3fcc303 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -114,7 +114,8 @@ ADD_SUBDIRECTORY( examples )
+ # --------
+ CONFIGURE_FILE( orocos-bfl.pc.in orocos-bfl.pc @ONLY)
+ INSTALL_FILES( /lib/pkgconfig FILES orocos-bfl.pc)
+-
++CONFIGURE_FILE( orocos-bfl.pc.in bfl.pc @ONLY)
++INSTALL_FILES( /lib/pkgconfig FILES bfl.pc)
+ 
+ # Building Doxygen documents
+ # --------------------------
+@@ -123,3 +124,6 @@ EXECUTE_PROCESS(COMMAND ./revision OUTPUT_VARIABLE SVN_REVISION)
+ MESSAGE("SVN REVISION ${SVN_REVISION}")
+ CONFIGURE_FILE(Doxyfile.in Doxyfile @ONLY)
+ ADD_CUSTOM_TARGET(docs "doxygen" "Doxyfile")
++
++# Install catkin package.xml
++install(FILES package.xml DESTINATION share/bfl)
+diff --git a/orocos-bfl.pc.in b/orocos-bfl.pc.in
+index 6e8cd26..c1efd60 100644
+--- a/orocos-bfl.pc.in
++++ b/orocos-bfl.pc.in
+@@ -1,6 +1,6 @@
+ prefix=@CMAKE_INSTALL_PREFIX@
+ libdir=${prefix}/lib
+-includedir=${prefix}/include
++includedir=${prefix}/include/bfl
+ 
+ Name: orocos-bfl
+ Description: Orocos Bayesian Filtering Library
+diff --git a/package.xml b/package.xml
+index 0f4dc0c..2c2d4a5 100644
+--- a/package.xml
++++ b/package.xml
+@@ -25,10 +25,11 @@
+   <run_depend>catkin</run_depend>
+   <buildtool_depend>cmake</buildtool_depend>
+ 
++  <build_depend>boost</build_depend>
+   <build_depend>cppunit</build_depend>
+-  <build_depend>ros</build_depend>
++
++  <run_depend>boost</run_depend>
+   <run_depend>cppunit</run_depend>
+-  <run_depend>ros</run_depend>
+ 
+   <export>
+     <build_type>cmake</build_type>
+diff --git a/src/bfl_constants.h b/src/bfl_constants.h
+index f5e62da..ce3f724 100644
+--- a/src/bfl_constants.h
++++ b/src/bfl_constants.h
+@@ -20,7 +20,7 @@
+ 
+ #define NUMERIC_PRECISION 0.000000001
+ 
+-#pragma warning( disable : 4996)
++//#pragma warning( disable : 4996)
+ 
+ #ifndef M_PI
+ #define M_PI 3.141592653589793284626433832795
+diff --git a/src/filter/mixtureParticleFilter.cpp b/src/filter/mixtureParticleFilter.cpp
+index 83170a4..10a30a4 100644
+--- a/src/filter/mixtureParticleFilter.cpp
++++ b/src/filter/mixtureParticleFilter.cpp
+@@ -102,15 +102,15 @@ MixtureParticleFilter<SV,MV>::MixtureParticleFilter(Mixture<SV> * prior,
+   */
+   bool ret = (dynamic_cast<MCPdf<SV> *>(this->_post))->ListOfSamplesSet(prior->ListOfSamplesGet());
+   assert(ret);
+-  for(int i =0 ; i < prior.NumComponentsGet() ; i++)
++  for(int i =0 ; i < prior->NumComponentsGet() ; i++)
+   {
+     bool ret = (dynamic_cast<MCPdf<SV> *>(this->_post->ComponentGet(i)))->ListOfSamplesSet(prior->ComponentGet(i)->ListOfSamplesGet());
+   }
+ 
+   // Initialise vector of lists of samples
+-  for(int i =0 ; i < prior.NumComponentsGet() ; i++)
++  for(int i =0 ; i < prior->NumComponentsGet() ; i++)
+   {
+-    _old_samplesVec[i] = (prior.ComponentGet(i)->ListOfSamplesGet());
++    _old_samplesVec[i] = (prior->ComponentGet(i)->ListOfSamplesGet());
+   }
+   _new_samplesVec = _old_samplesVec;
+ 
+-- 
+1.9.1
+
