@@ -1,3 +1,24 @@
+## bfl (jade) - 0.7.0-2
+
+The packages in the `bfl` repository were released into the `jade` distro by running `/usr/bin/bloom-release -t jade -r jade bfl` on `Fri, 13 Mar 2015 22:04:04 -0000`
+
+The `bfl` package was released.
+
+Version of package(s) in repository `bfl`:
+- upstream repository: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.7.0-1`
+- new version: `0.7.0-2`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## bfl (indigo) - 0.7.0-6
 
 The packages in the `bfl` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo bfl` on `Thu, 08 May 2014 01:03:51 -0000`
