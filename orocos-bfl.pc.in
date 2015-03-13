@@ -1,6 +1,6 @@
 prefix=@CMAKE_INSTALL_PREFIX@
 libdir=${prefix}/lib
-includedir=${prefix}/include/bfl
+includedir=${prefix}/include
 
 Name: orocos-bfl
 Description: Orocos Bayesian Filtering Library
