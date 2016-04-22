@@ -75,6 +75,7 @@ tracks:
     vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
     version: 0.7.0
   kinetic:
+    actions:
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name ubuntu
