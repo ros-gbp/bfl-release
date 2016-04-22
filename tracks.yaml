@@ -74,3 +74,22 @@ tracks:
     vcs_type: svn
     vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
     version: 0.7.0
+  kinetic:
+    - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
+    - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
+      -i :{release_inc} --os-name ubuntu
+    - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
+      -i :{release_inc} --os-name debian --os-not-required
+    - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
+      :{release_inc}
+    devel_branch: null
+    last_version: 0.7.0
+    name: bfl
+    patches: kinetic
+    release_inc: '0'
+    release_repo_url: git@github.com:ros-gbp/bfl-release.git
+    release_tag: null
+    ros_distro: kinetic
+    vcs_type: svn
+    vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
+    version: 0.7.0
