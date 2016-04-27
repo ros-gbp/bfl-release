@@ -1,3 +1,26 @@
+## bfl (kinetic) - 0.7.0-2
+
+The packages in the `bfl` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -t kinetic -r kinetic bfl` on `Wed, 27 Apr 2016 01:32:46 -0000`
+
+The `bfl` package was released.
+
+Version of package(s) in repository `bfl`:
+
+- upstream repository: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
+- release repository: https://github.com/ros-gbp/bfl-release.git
+- rosdistro version: `0.7.0-1`
+- old version: `0.7.0-1`
+- new version: `0.7.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## bfl (kinetic) - 0.7.0-1
 
 The packages in the `bfl` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release bfl -t kinetic -r kinetic` on `Fri, 22 Apr 2016 06:05:39 -0000`
