@@ -114,8 +114,7 @@ ADD_SUBDIRECTORY( examples )
 # --------
 CONFIGURE_FILE( orocos-bfl.pc.in orocos-bfl.pc @ONLY)
 INSTALL_FILES( /lib/pkgconfig FILES orocos-bfl.pc)
-CONFIGURE_FILE( orocos-bfl.pc.in bfl.pc @ONLY)
-INSTALL_FILES( /lib/pkgconfig FILES bfl.pc)
+
 
 # Building Doxygen documents
 # --------------------------
@@ -124,6 +123,3 @@ EXECUTE_PROCESS(COMMAND ./revision OUTPUT_VARIABLE SVN_REVISION)
 MESSAGE("SVN REVISION ${SVN_REVISION}")
 CONFIGURE_FILE(Doxyfile.in Doxyfile @ONLY)
 ADD_CUSTOM_TARGET(docs "doxygen" "Doxyfile")
-
-# Install catkin package.xml
-install(FILES package.xml DESTINATION share/bfl)
