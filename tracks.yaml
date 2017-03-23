@@ -106,11 +106,11 @@ tracks:
     devel_branch: null
     last_version: 0.7.0
     name: bfl
-    patches: kinetic
+    patches: lunar
     release_inc: '-1'
     release_repo_url: git@github.com:ros-gbp/bfl-release.git
     release_tag: null
-    ros_distro: kinetic
+    ros_distro: lunar
     vcs_type: svn
     vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
     version: 0.7.0
