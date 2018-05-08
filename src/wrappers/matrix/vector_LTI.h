@@ -1,4 +1,4 @@
-// $Id: vector_LTI.h 29830 2009-01-14 15:10:41Z kgadeyne $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 
 //
@@ -56,6 +56,8 @@ public:
   virtual void resize(int num_rows);
   virtual unsigned int rows() const;
   virtual unsigned int columns() const;
+  virtual unsigned int capacity() const;
+  virtual void assign(int size, double value) ;
   virtual ColumnVector vectorAdd(const MyColumnVector& v2) const;
   virtual ColumnVector& operator =(const MyColumnVector& a);
   virtual ColumnVector& operator =(double a);
@@ -102,9 +104,11 @@ class MyRowVector : public ltiRowVector, public RowVector_Wrapper
   virtual ~RowVector();
 
   virtual void resize(int num_cols);
+  virtual void assign(int size, double value) ;
   virtual RowVector vectorAdd(const MyRowVector& v2) const;
   virtual unsigned int rows() const;
   virtual unsigned int columns() const;
+  virtual unsigned int capacity() const;
   virtual RowVector& operator =(double a);
   virtual RowVector& operator =(const MyRowVector& a);
   virtual const bool operator==(const MyRowVector& a) const;

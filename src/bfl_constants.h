@@ -1,4 +1,4 @@
-// $Id: bfl_constants.h 30606 2009-10-02 10:01:02Z tdelaet $
+// $Id$
 // Copyright (C) 2003 Klaas Gadeyne <first dot last at gmail dot com>
 //
 // This program is free software; you can redistribute it and/or modify
@@ -69,6 +69,7 @@ namespace BFL
     friend istream & operator>> (istream & stream,Probability& prob);
 
     double getValue() const { return _prob;} ;
+    double& getValue() { return _prob;} ;
 
       operator double(){return _prob;};
       Probability operator *(Probability p)

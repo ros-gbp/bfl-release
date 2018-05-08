@@ -1,4 +1,4 @@
-// $Id: extendedkalmanfilter.cpp 29762 2008-12-02 08:37:11Z tdelaet $
+// $Id$
 // Copyright (C) 2003 Klaas Gadeyne <first dot last at gmail dot com>
 //                    Wim Meeussen  <wim dot meeussen at mech dot kuleuven dot be>
 //                    Tinne De Laet <tinne dot delaet at mech dot kuleuven dot be>

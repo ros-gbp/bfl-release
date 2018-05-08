@@ -1,4 +1,4 @@
-// $Id: discreteconditionalpdf.cpp 30031 2009-03-11 14:56:23Z tdelaet $
+// $Id$
 // Copyright (C) 2003 Klaas Gadeyne <first dot last at gmail dot com>
 //               2008 Tinne De Laet <first dot last at mech dot kuleuven dot be>
 //

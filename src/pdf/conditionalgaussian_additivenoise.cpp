@@ -1,4 +1,4 @@
-// $Id: conditionalgaussian_additivenoise.cpp 29495 2008-08-13 12:57:49Z tdelaet $
+// $Id$
 // Copyright (C) 2003 Klaas Gadeyne <first dot last at gmail dot com>
 //
 // This program is free software; you can redistribute it and/or modify

@@ -27,7 +27,7 @@
  *   Suite 330, Boston, MA  02111-1307  USA                                *
  *                                                                         *
  ***************************************************************************/
-// $Id: asirfilter.h 29830 2009-01-14 15:10:41Z kgadeyne $
+// $Id$
 
 #ifndef __ASIR_FILTER__
 #define __ASIR_FILTER__

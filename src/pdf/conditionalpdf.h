@@ -1,4 +1,4 @@
-// $Id: conditionalpdf.h 30606 2009-10-02 10:01:02Z tdelaet $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
  /***************************************************************************
  *   This library is free software; you can redistribute it and/or         *

@@ -1,4 +1,4 @@
-// $Id: discretepdf.cpp 29890 2009-02-02 10:22:01Z tdelaet $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 //
 // This program is free software; you can redistribute it and/or modify

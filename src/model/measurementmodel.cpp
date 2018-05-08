@@ -1,4 +1,4 @@
-// $Id: measurementmodel.cpp 29765 2008-12-03 08:41:45Z tdelaet $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 //
 // This program is free software; you can redistribute it and/or modify

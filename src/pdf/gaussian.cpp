@@ -1,4 +1,4 @@
-// $Id: gaussian.cpp 33801 2010-12-21 12:20:54Z tdelaet $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 // Copyright (C) 2008 Tinne De Laet <first dot last at mech dot kuleuven dot be>
 //
@@ -210,17 +210,6 @@ namespace BFL
 	this->DimensionSet(cov.rows());
       }
     assert(this->DimensionGet() == cov.rows());
-  }
-
-  void
-  Gaussian::DimensionSet ( unsigned int dim )
-  {
-    Pdf<ColumnVector>::DimensionSet(dim);
-    _diff.resize(DimensionGet());
-    _tempColumn.resize(DimensionGet());
-    _samples.resize(DimensionGet());
-    _sampleValue.resize(DimensionGet());
-    _Low_triangle.resize(DimensionGet(),DimensionGet());
   }
 
 } // End namespace BFL

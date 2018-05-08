@@ -1,4 +1,4 @@
-// $Id: gaussian.h 33801 2010-12-21 12:20:54Z tdelaet $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 // Copyright (C) 2008 Tinne De Laet <first dot last at mech dot kuleuven dot be>
 //
@@ -73,7 +73,6 @@ namespace BFL
 
       virtual MatrixWrapper::ColumnVector ExpectedValueGet() const;
       virtual MatrixWrapper::SymmetricMatrix CovarianceGet() const;
-      virtual void DimensionSet(unsigned int dim);
 
       // For a Gaussian this should be possible
       /// Set the Expected Value

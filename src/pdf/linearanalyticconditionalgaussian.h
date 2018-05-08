@@ -1,4 +1,4 @@
-// $Id: linearanalyticconditionalgaussian.h 29890 2009-02-02 10:22:01Z tdelaet $
+// $Id$
 // Copyright (C) 2003 Klaas Gadeyne <first dot last at gmail dot com>
 //                    Wim Meeussen  <wim dot meeussen at mech dot kuleuven dot be>
 //                    Tinne De Laet  <tinne dot delaet at mech dot kuleuven dot be>

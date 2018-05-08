@@ -359,7 +359,7 @@ MixtureParticleFilter<SV,MV>::DynamicResampleStep()
     // Independent resampling for different components
     for(int i = 0 ; i< dynamic_cast<Mixture<SV> *>(this->_post)->NumComponentsGet(); i++)
     {
-        result == result && this->DynamicResampleStepOne(i);
+        result = result && this->DynamicResampleStepOne(i);
     }
     return result;
 }
@@ -448,7 +448,7 @@ MixtureParticleFilter<SV,MV>::Resample()
     // Independent resampling for different components
     for(int i = 0 ; i< dynamic_cast<Mixture<SV> *>(this->_post)->NumComponentsGet(); i++)
     {
-        result == result && this->ResampleOne(i);
+        result = result && this->ResampleOne(i);
     }
     return result;
 }

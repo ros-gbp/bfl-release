@@ -1,4 +1,4 @@
-// $Id: nonminimalkalmanfilter.h 29830 2009-01-14 15:10:41Z kgadeyne $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 //                    Wim Meeussen  <wim dot meeussen at mech dot kuleuven dot ac dot be>
 //

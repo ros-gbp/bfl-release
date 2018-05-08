@@ -1,4 +1,4 @@
-// $Id: conditionalgaussian.cpp 29890 2009-02-02 10:22:01Z tdelaet $
+// $Id$
 // Copyright (C) 2003 Klaas Gadeyne <first dot last at gmail dot com>
 // Copyright (C) 2008 Tinne De Laet <first dot last at mech dot kuleuven dot be>
 //

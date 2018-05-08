@@ -1,4 +1,4 @@
-// $Id: matrix_NEWMAT.h 29884 2009-01-30 15:28:43Z tdelaet $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 
 //

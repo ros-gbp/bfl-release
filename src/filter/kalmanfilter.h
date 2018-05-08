@@ -1,4 +1,4 @@
-// $Id: kalmanfilter.h 30022 2009-03-06 15:10:30Z kgadeyne $
+// $Id$
 // Copyright (C) 2002 Klaas Gadeyne <first dot last at gmail dot com>
 //                    Wim Meeussen  <wim dot meeussen at mech dot kuleuven dot ac dot be>
 //                    Tinne De Laet <tinne dot delaet at mech dot kuleuven dot be>

@@ -1,4 +1,4 @@
-// $Id: particlefilter.h 29830 2009-01-14 15:10:41Z kgadeyne $
+// $Id$
 
  /***************************************************************************
  *   This library is free software; you can redistribute it and/or         *

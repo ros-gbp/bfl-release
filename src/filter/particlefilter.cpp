@@ -14,7 +14,7 @@
 // along with this program; if not, write to the Free Software
 // Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 //
-// $Id: particlefilter.cpp 29787 2008-12-09 19:38:08Z kgadeyne $
+// $Id$
 
 #include "particlefilter.h"
 #include "../pdf/mcpdf.h"
