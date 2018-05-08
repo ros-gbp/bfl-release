@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>bfl</name>
-  <version>0.7.0</version>
+  <version>0.8.0</version>
   <description>
   This package contains a recent version of the Bayesian Filtering
   Library (BFL), distributed by the Orocos Project.  For stability

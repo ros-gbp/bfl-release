@@ -116,6 +116,10 @@ tracks:
     version: 0.7.0
   melodic:
     actions:
+    - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
+      :{vcs_uri} --name :{name} --output-dir :{archive_dir_path}
+    - git-bloom-import-upstream :{archive_path} :{patches} --release-version :{version}
+      --replace
     - git-bloom-generate -y rosrelease :{ros_distro} --source upstream -i :{release_inc}
     - git-bloom-generate -y rosdebian --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --os-name ubuntu
@@ -124,13 +128,13 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: null
-    last_version: 0.7.0
+    last_version: 0.8.0
     name: bfl
     patches: melodic
     release_inc: '-1'
     release_repo_url: git@github.com:ros-gbp/bfl-release.git
-    release_tag: null
+    release_tag: f21791e4d35f7343b06819e0507a21b83edf8f99
     ros_distro: melodic
-    vcs_type: svn
-    vcs_uri: http://svn.mech.kuleuven.be/repos/orocos/branches/bfl/branch-0.7/
-    version: 0.7.0
+    vcs_type: git
+    vcs_uri: https://github.com/toeklk/orocos-bayesian-filtering.git
+    version: 0.8.0
