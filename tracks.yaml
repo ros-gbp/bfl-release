@@ -128,10 +128,11 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: null
+    last_release: f21791e4d35f7343b06819e0507a21b83edf8f99
     last_version: 0.8.0
     name: bfl
     patches: melodic
-    release_inc: '0'
+    release_inc: '1'
     release_repo_url: git@github.com:ros-gbp/bfl-release.git
     release_tag: f21791e4d35f7343b06819e0507a21b83edf8f99
     ros_distro: melodic
