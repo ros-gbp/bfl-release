@@ -13,7 +13,7 @@
   manager.  This ROS package compiles BFL with the Boost library for
   matrix operations and random number generation.
   </description>
-  <maintainer email="mferguson@fetchrobotics.com">Michael Ferguson</maintainer>
+  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
   <author> Klaas Gadeyne, Wim Meeussen, Tinne Delaet and many others. See web page for a full contributor list. ROS package maintained by Wim Meeussen.</author>
 
   <license>LGPL</license>
