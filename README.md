@@ -1,3 +1,26 @@
+## bfl (melodic) - 0.8.0-1
+
+The packages in the `bfl` repository were released into the `melodic` distro by running `/usr/bin/bloom-release bfl --track melodic --rosdistro melodic` on `Sat, 09 Feb 2019 06:42:53 -0000`
+
+The `bfl` package was released.
+
+Version of package(s) in repository `bfl`:
+
+- upstream repository: https://github.com/toeklk/orocos-bayesian-filtering.git
+- release repository: https://github.com/ros-gbp/bfl-release.git
+- rosdistro version: `0.8.0-0`
+- old version: `0.8.0-0`
+- new version: `0.8.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.15.0`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## bfl (lunar) - 0.7.0-0
 
 The packages in the `bfl` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -t lunar -r lunar bfl` on `Thu, 23 Mar 2017 22:19:48 -0000`
